@@ -13,7 +13,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081234567890',
     line: 'grace.rianty',
     ig: '@gracerianty',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/wakil_itc.png',
@@ -26,7 +25,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081298765432',
     line: 'dzaki.ghatfaan',
     ig: '@dzakighatfaan',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -39,7 +37,6 @@ final List<UserModel> dummyPengurus = [
     wa: '085711223344',
     line: 'nayla.saskia',
     ig: '@naylasaskia',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -52,7 +49,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081344556677',
     line: 'dewi.rahma',
     ig: '@dewirahmawati',
-    fav: false,
   ),
 
   // --- MEDIA INFORMASI ---
@@ -67,7 +63,6 @@ final List<UserModel> dummyPengurus = [
     wa: '082155667788',
     line: 'satya.dio',
     ig: '@satyadiop',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -80,7 +75,6 @@ final List<UserModel> dummyPengurus = [
     wa: '089677889900',
     line: 'rafli.wibowo',
     ig: '@rafliwibowo',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -93,7 +87,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081512312312',
     line: 'wilda.nafian',
     ig: '@wildanafian',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: PROJECT MANAGER ---
@@ -108,7 +101,6 @@ final List<UserModel> dummyPengurus = [
     wa: '082233445566',
     line: 'kurniasari.s',
     ig: '@kurniasari_s',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -121,7 +113,6 @@ final List<UserModel> dummyPengurus = [
     wa: '087811223344',
     line: 'fahri.hidayat',
     ig: '@fahrihidayat',
-    fav: false,
   ),
   // DUMMY MEMBERS PM
   const UserModel(
@@ -135,7 +126,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000004',
     line: 'rizky.ramadhan',
     ig: '@rizkyramadhan',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -148,7 +138,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000005',
     line: 'larasati.putri',
     ig: '@larasatipi',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -161,7 +150,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000006',
     line: 'fajar.nugraha',
     ig: '@fajarnugraha',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: UI/UX ---
@@ -176,7 +164,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081245645645',
     line: 'muhammad.ruhul',
     ig: '@ruhuljadid',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -189,7 +176,6 @@ final List<UserModel> dummyPengurus = [
     wa: '085699887766',
     line: 'gita.risty',
     ig: '@gitaristy',
-    fav: false,
   ),
   // DUMMY MEMBERS UI/UX
   const UserModel(
@@ -203,7 +189,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000007',
     line: 'andini.wulan',
     ig: '@andiniwulan',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -216,7 +201,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000008',
     line: 'eko.prasetyo',
     ig: '@ekoprasetyo',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -229,7 +213,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000009',
     line: 'maya.indah',
     ig: '@mayaindah',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: WEB ---
@@ -244,7 +227,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081911221122',
     line: 'gradiva.arya',
     ig: '@gradivaarya',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -257,7 +239,6 @@ final List<UserModel> dummyPengurus = [
     wa: '082212341234',
     line: 'marvel.valen',
     ig: '@marvelvalensiano',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -270,7 +251,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081399889988',
     line: 'farhannivta.r',
     ig: '@farhannivta',
-    fav: false,
   ),
   // DUMMY MEMBERS WEB
   const UserModel(
@@ -284,7 +264,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000010',
     line: 'hendra.wijaya',
     ig: '@hendrawijaya',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -297,7 +276,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000011',
     line: 'dina.lestari',
     ig: '@dinalestari',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -310,7 +288,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000012',
     line: 'bambang.k',
     ig: '@bambangkusuma',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: MOBILE ---
@@ -325,7 +302,6 @@ final List<UserModel> dummyPengurus = [
     wa: '085755443322',
     line: 'bintoro.dev',
     ig: '@bintoro_dev',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -338,7 +314,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081277665544',
     line: 'ikhsan.fillah',
     ig: '@ikhsanfillah',
-    fav: false,
   ),
   // DUMMY MEMBERS MOBILE
   const UserModel(
@@ -352,7 +327,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000013',
     line: 'deva.brahm',
     ig: '@deva_brahmasta',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -365,7 +339,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000014',
     line: 'rina.melati',
     ig: '@rinamelati',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -378,7 +351,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000015',
     line: 'taufik.h',
     ig: '@taufikhidayat',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: CP ---
@@ -393,7 +365,6 @@ final List<UserModel> dummyPengurus = [
     wa: '082199009900',
     line: 'rizal.ardiansyah',
     ig: '@rizalardiansyah',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -406,7 +377,6 @@ final List<UserModel> dummyPengurus = [
     wa: '085611331133',
     line: 'filipus.satrio',
     ig: '@filipussatrio',
-    fav: false,
   ),
   // DUMMY MEMBERS CP
   const UserModel(
@@ -420,7 +390,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000016',
     line: 'agus.setiawan',
     ig: '@agussetiawan',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -433,7 +402,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000017',
     line: 'wulan.sari',
     ig: '@wulansari',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -446,7 +414,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000018',
     line: 'joko.wd',
     ig: '@jokowidodo',
-    fav: false,
   ),
 
   // --- DEVELOPMENT: ML ---
@@ -461,7 +428,6 @@ final List<UserModel> dummyPengurus = [
     wa: '081322442244',
     line: 'bintang.ramadhan',
     ig: '@bintangramadhan',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -474,7 +440,6 @@ final List<UserModel> dummyPengurus = [
     wa: '089566776677',
     line: 'dimas.setiaji',
     ig: '@dimassetiaji',
-    fav: false,
   ),
   // DUMMY MEMBERS ML
   const UserModel(
@@ -488,7 +453,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000019',
     line: 'siska.putri',
     ig: '@siskaputri',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -501,7 +465,6 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000020',
     line: 'rahmat.h',
     ig: '@rahmathidayat',
-    fav: false,
   ),
   const UserModel(
     image: 'assets/images/ketua_itc.png',
@@ -514,6 +477,5 @@ final List<UserModel> dummyPengurus = [
     wa: '08120000021',
     line: 'indah.permata',
     ig: '@indahpermata',
-    fav: false,
   ),
 ];

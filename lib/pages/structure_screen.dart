@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itc_directory/pages/card_widget.dart';
+import 'package:itc_directory/pages/widgets/card_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:itc_directory/providers/member_provider.dart';
 import 'package:itc_directory/models/user_model.dart';
@@ -115,7 +115,7 @@ class _DevTiles extends StatelessWidget {
                       (e) => StructureCard(member: e, isTiles: true),
                     ),
                   ],
-                  if (inkadiv.isNotEmpty) ...[
+                  if (anggota.isNotEmpty) ...[
                     Text(
                       'Anggota',
                       style: Theme.of(context).textTheme.labelLarge,

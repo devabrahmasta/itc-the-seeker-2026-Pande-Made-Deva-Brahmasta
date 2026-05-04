@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:itc_directory/data/division_data.dart';
 import 'package:itc_directory/data/user_data.dart';
 import 'package:itc_directory/models/user_model.dart';
+import 'package:itc_directory/pages/widgets/circle_widget.dart';
 import 'package:itc_directory/providers/member_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -58,12 +59,12 @@ class HomeScreen extends StatelessWidget {
                   Positioned(
                     top: -50,
                     right: -80,
-                    child: Circle(dimension: 250, color: Colors.white10),
+                    child: Circle(dimension: 250),
                   ),
                   Positioned(
                     bottom: -30,
                     left: -30,
-                    child: Circle(dimension: 150, color: Colors.white10),
+                    child: Circle(dimension: 150),
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 30),
@@ -116,23 +117,24 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+
                   // Summmary
                   Row(
                     children: [
                       Expanded(
-                        child: CardStats(
+                        child: _CardStats(
                           title: dummyPengurus.length.toString(),
                           label: 'Anggota',
                         ),
                       ),
                       Expanded(
-                        child: CardStats(
+                        child: _CardStats(
                           title: dummyDivision.length.toString(),
                           label: 'Divisi',
                         ),
                       ),
                       Expanded(
-                        child: CardStats(title: '2026', label: 'Periode'),
+                        child: _CardStats(title: '2026', label: 'Periode'),
                       ),
                     ],
                   ),
@@ -141,7 +143,7 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: 12),
                   _header(context, 'Ketua ITC'),
                   SizedBox(height: 6),
-                  ProfileCard(data: chairperson),
+                  _ProfileCard(data: chairperson),
 
                   // Divisoin Card
                   SizedBox(height: 12),
@@ -177,21 +179,6 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-class Circle extends StatelessWidget {
-  const Circle({super.key, required this.dimension, required this.color});
-
-  final double dimension;
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: dimension,
-      height: dimension,
-      decoration: BoxDecoration(shape: BoxShape.circle, color: color),
-    );
-  }
-}
 
 class DivisionCard extends StatelessWidget {
   const DivisionCard({
@@ -278,11 +265,11 @@ class DivisionCard extends StatelessWidget {
   }
 }
 
-class CardStats extends StatelessWidget {
+class _CardStats extends StatelessWidget {
   final String title;
   final String label;
 
-  const CardStats({super.key, required this.title, required this.label});
+  const _CardStats({required this.title, required this.label});
 
   @override
   Widget build(BuildContext context) {
@@ -296,13 +283,13 @@ class CardStats extends StatelessWidget {
             Text(
               title,
               style: textTheme.headlineLarge?.copyWith(
-                color: const Color(0xFF153D21),
+                color: Theme.of(context).colorScheme.primary,
               ),
             ),
             Text(
               label,
               style: textTheme.bodyMedium?.copyWith(
-                color: const Color(0xFF153D21),
+                color: Theme.of(context).colorScheme.primary,
               ),
             ),
           ],
@@ -312,8 +299,8 @@ class CardStats extends StatelessWidget {
   }
 }
 
-class ProfileCard extends StatelessWidget {
-  const ProfileCard({super.key, required this.data});
+class _ProfileCard extends StatelessWidget {
+  const _ProfileCard({required this.data});
 
   final UserModel data;
 

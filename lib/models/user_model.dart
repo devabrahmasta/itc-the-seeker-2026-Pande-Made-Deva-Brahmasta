@@ -8,7 +8,6 @@ class UserModel {
   final String wa;
   final String line;
   final String ig;
-  final bool? fav;
 
   const UserModel({
     required this.image,
@@ -20,6 +19,5 @@ class UserModel {
     required this.wa,
     required this.line,
     required this.ig,
-    this.fav,
   });
 }

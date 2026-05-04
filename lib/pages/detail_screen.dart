@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:itc_directory/pages/widgets/circle_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:itc_directory/models/user_model.dart';
 import 'package:itc_directory/providers/member_provider.dart';
@@ -81,13 +82,9 @@ class DetailScreen extends StatelessWidget {
                 Positioned(
                   bottom: -60,
                   right: -90,
-                  child: Circle(dimension: 250, color: Colors.white10),
+                  child: Circle(dimension: 250),
                 ),
-                Positioned(
-                  top: 10,
-                  left: -50,
-                  child: Circle(dimension: 150, color: Colors.white10),
-                ),
+                Positioned(top: 10, left: -50, child: Circle(dimension: 150)),
                 Container(
                   width: double.infinity,
                   padding: EdgeInsets.only(top: 30),
@@ -129,7 +126,7 @@ class DetailScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      
+
                       SizedBox(height: 20),
                       Container(
                         height: 30,
@@ -218,17 +215,20 @@ class DetailScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         _buildContactCard(
+                          textTheme,
                           'WhatsApp',
                           member.wa,
                           HugeIcons.strokeRoundedWhatsapp,
                           isPrimary: true,
                         ),
                         _buildContactCard(
+                          textTheme,
                           'LINE',
                           member.line,
                           HugeIcons.strokeRoundedLine,
                         ),
                         _buildContactCard(
+                          textTheme,
                           'Instagram',
                           member.ig,
                           HugeIcons.strokeRoundedInstagram,
@@ -252,13 +252,17 @@ class DetailScreen extends StatelessWidget {
         Text(label, style: textTheme.bodyMedium),
         Text(
           value,
-          style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.bold, color: Colors.black),
+          style: textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
         ),
       ],
     );
   }
 
   Widget _buildContactCard(
+    TextTheme textTheme,
     String title,
     String subtitle,
     List<List<dynamic>> icon, {
@@ -273,17 +277,10 @@ class DetailScreen extends StatelessWidget {
             children: [
               HugeIcon(icon: icon, color: const Color(0xFF153D21), size: 28),
               const SizedBox(height: 8),
-              Text(
-                title,
-                style: TextStyle(
-                  color: Colors.black87,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 12,
-                ),
-              ),
+              Text(title, style: textTheme.bodyMedium),
               Text(
                 subtitle,
-                style: TextStyle(color: Colors.grey, fontSize: 10),
+                style: textTheme.labelSmall,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
@@ -291,22 +288,6 @@ class DetailScreen extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-}
-
-class Circle extends StatelessWidget {
-  const Circle({super.key, required this.dimension, required this.color});
-
-  final double dimension;
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: dimension,
-      height: dimension,
-      decoration: BoxDecoration(shape: BoxShape.circle, color: color),
     );
   }
 }

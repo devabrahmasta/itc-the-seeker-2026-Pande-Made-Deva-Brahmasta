@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:itc_directory/models/user_model.dart';
-import 'package:itc_directory/pages/card_widget.dart';
+import 'package:itc_directory/pages/widgets/card_widget.dart';
 import 'package:itc_directory/providers/member_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -14,7 +14,7 @@ class FavoriteScreen extends StatelessWidget {
     );
 
     return Scaffold(
-      appBar: AppBar(title: Text('Pengurus Favotire')),
+      appBar: AppBar(title: Text('Pengurus Favorite')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: ListView.builder(
