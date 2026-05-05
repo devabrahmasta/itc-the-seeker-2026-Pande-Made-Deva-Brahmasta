@@ -8,21 +8,11 @@ Aplikasi mobile direktori pengurus Information Technology Club (ITC) UPN "Vetera
 
 ## Screenshots
 
-| Home                                 |
-| ------------------------------------ |
-| ![Home](assets/screenshots/home.jpg) |
+## Screenshots
 
-| Struktur                                      |
-| --------------------------------------------- |
-| ![Struktur](assets/screenshots/structure.jpg) |
-
-| Detail                                   |
-| ---------------------------------------- |
-| ![Detail](assets/screenshots/detail.jpg) |
-
-| Favorit                                     |
-| ------------------------------------------- |
-| ![Favorit](assets/screenshots/favorite.jpg) |
+| Home | Struktur | Detail | Favorit |
+|:---:|:---:|:---:|:---:|
+| <img src="assets/screenshots/home.jpg" width="200" alt="Home"> | <img src="assets/screenshots/structure.jpg" width="200" alt="Struktur"> | <img src="assets/screenshots/detail.jpg" width="200" alt="Detail"> | <img src="assets/screenshots/favorite.jpg" width="200" alt="Favorit"> |
 
 ---
 
